@@ -16,7 +16,7 @@ Lenguaje de marcas HTML y CSS
 ## 2 EXPLICA LAS 3 FORMAS DE USAR CSS EN HTML.
 
 ### CSS Externo:
-Se pone la direccion donde esta el archivo con el codigo css en la cabecera,dentro de <head></head>
+Se pone la direccion donde esta el archivo con el codigo css en la cabecera , dentro de <style></style>
 
 EJEMPLO:
 ```html
