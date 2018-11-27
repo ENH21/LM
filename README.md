@@ -176,15 +176,15 @@ a:link {
 ```
 ## 8- EXPLICA EL MODELO DE CAJA DE CSS (MARGIN,BORDER,PADDING).
 
-###MARGIN
+### MARGIN:
 El margen es el margen que habra en la caja y el resto de cajas. Si se usa solo margin
 se cambiaran los cuatro lados de la caja por separado se usan  margin-top, margin-right, margin-bottom, y margin-left.
 
-###BORDER
+### BORDER:
 Este atributo es obviamente el borde de la caja y se puede dificar el color , el grosor etc.. Al igual que margin si se usa solo border
 se cambiaran los cuatro lados de la caja por separado se usan border-top, border-right, border-bottom, border-left.
 
-###PADDING
+### PADDING:
 Padding hace referencia al margen interior de la caja.Al igual que margin y border si se usa solo la propiedad padding se cambiaran los cuatro lados, y para cada lado por separado se usaran las propiedades padding-top, padding-right, padding-bottom y padding-left.
 
 IMAGEN EJEMPLO: https://mdn.mozillademos.org/files/13647/box-model-standard-small.png
