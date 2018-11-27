@@ -163,7 +163,7 @@ La principal diferencia es que un ID es un identificador único. Es decir que si
 Una pseudoclase es una palabra clave que se le añade a los selectores para especificar un estado especial de determinado elemento.
 
 EJEMPLOS:
-´´´
+```
 a:active	 //Selecciona cualquier <a> que esté siendo activada
 
 p:hover {
@@ -173,7 +173,7 @@ p:hover {
 a:link {
   color: red;   //Selecciona cualquier <a> aunque no se haya visitado.
 }
-´´´
+```
 ## 8- EXPLICA EL MODELO DE CAJA DE CSS (MARGIN,BORDER,PADDING).
 
 ###MARGIN
@@ -194,7 +194,7 @@ IMAGEN EJEMPLO: https://mdn.mozillademos.org/files/13647/box-model-standard-smal
 Los selectores son los que nos permiten elegir los nelementos a los que queremos aplicar unas reglas de diseño. Asi es como podemos dar estilo a todos los elementos HTML que queramos.
 
 EJEMPLOS:
-´´´
+```
 p * {
     color: red; // Se selecciona a todas las p del codigo.
 }
@@ -210,15 +210,15 @@ h1 {
 .esteban {
     color: red; // Se selecciona a todas las clases con el nombre "esteban".
 }
-´´´
+```
 ## 10- DI A QUIEN AFECTA.
-´´´´
+```
 p a { color: red;  					//Ninguno porque falta cerrar llaves.
 p > a { color: red; }					//Afecta a todas las a que sean hijos directos de p.
 h1 + h2 { color: red }					//Afecta tanto a los h1 como a los h2 de la pagina.
 a[class] { color: blue; }				//Afecta a todas las a que esten dentro una clase.
 a[class="externo"] { color: blue; }			//Afecta a todas las a que esten dentro de la clase "externo".
 a[href="http://www.ejemplo.com"] { color: blue; }	//Afecta a la a que hace referencia a la url http://www.ejemplo.com
-´´´
+```
 
 # ESTEBAN NARANJO HENRIQUEZ 27/11/2018
