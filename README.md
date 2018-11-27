@@ -110,7 +110,7 @@ EJEMPLO:
 ### Javascript Interno:
 De esta forma tambien se pone en la cabecera ,dentro de ```<head></head>``` y tambien dentro de ```<script></script>```
 pero con la diferencia que aqui se pone el codigo directamente.
-desde ahí.
+
 
 EJEMPLO:
 ```html
@@ -132,7 +132,7 @@ EJEMPLO:
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ejemplo Css Embebido </title>   
+    <title>Ejemplo</title>   
 </head>
 <body>
   <span onclick="alert('Hola otra vez Manol!')">Haz click aquí</span>
