@@ -145,6 +145,16 @@ EJEMPLO:
 
 La principal diferencia es que un ID es un identificador único. Es decir que si por ejemplo tienesun ID ejemploEsteban, a ese ID lo vas a utilizar en un solo elemento de html .Los IDs tienen que ser unicos y serán usados en un solo elemento html. Pueden haber muchos IDs, pero cada uno será utilizado una única vez.Mientras que las CLASES se pueden utilizar cuantas veces se quiera y en distintos elementos html.
 
+EJEMPLOS:
+```
+<div class="esteban">
+  <p>Ejemplo de clase</p>	     // Para seleccionarlo hay que poner un punto y a continuacion el nombre por ejemplo : .esteban
+</div>
+```
+```
+<h1 id="narajo">Ejemplo de ID</h1> // Para seleccionarlo hay que poner un almohadilla y a continuacion el nombre por ejemplo : #naranjo
+```
+
 ## 6- CODIGO PARA HACER UN ENLACE A OTRA PAGINA Y QUE ESTA SE ABRA EN UNA VENTANA NUEVA.
 
 ```html
